@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+   <Hotel hotelNumber="137865">
+      <Name>Seaside Hotel</Name>
+      <Address>
+         <TownName>Stralsund</TownName>
+         <StreetAndHouseNumber>Friedrich-Naumann-Street 25</StreetAndHouseNumber>
+         <ZipCode>18435</ZipCode>
+      </Address>
+      <Stars>5</Stars>
+      <Guests>
+         <Guest guestNumber="458">
+            <Name>Gary Guest</Name>
+            <Address>
+               <TownName>Stuttgart</TownName>
+               <StreetAndHouseNumber>Universitaetsstr. 38</StreetAndHouseNumber>
+               <ZipCode>70569</ZipCode>
+            </Address>
+         </Guest>
+         <Guest guestNumber="672">
+            <Name>Vicky Visitor</Name>
+            <Address>
+               <TownName>Hamburg</TownName>
+               <StreetAndHouseNumber>Bahnhofstr. 3</StreetAndHouseNumber>
+               <ZipCode>22767</ZipCode>
+            </Address>
+         </Guest>
+      </Guests>
+      <Reservations>
+         <Reservation roomNumber="5" guestNumber="458">
+            <RoomType>
+               <BasicRoom>
+                  <AdditionalBed>false</AdditionalBed>
+                  <MiniBar>false</MiniBar>
+                  <Price>70</Price>
+               </BasicRoom>
+            </RoomType>
+            <Arrival>2015-10-24</Arrival>
+            <Departure>2015-10-30</Departure>
+            <Smoker>false</Smoker>
+         </Reservation>
+         <Reservation roomNumber="6" guestNumber="672">
+            <RoomType>
+               <LuxuryRoom>
+                  <OceanView>true</OceanView>
+                  <RoomService>true</RoomService>
+                  <Price>140</Price>
+               </LuxuryRoom>
+            </RoomType>
+            <Arrival>2015-21-09</Arrival>
+            <Departure>2015-10-24</Departure>
+            <Smoker>true</Smoker>
+         </Reservation>
+      </Reservations>
+   </Hotel>
+</Hotels>
+
