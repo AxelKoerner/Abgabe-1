@@ -1,16 +1,55 @@
 \documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx}
 
-\title{AIM Assignment 1}
+\title{Advanced Information Management Assignment 1 }
+
 \author{Markus Kaltenecker, Lukas Gillich, Axel Körner}
 
 \begin{document}
 
-    \maketitle
+\maketitle
 
-    \section{Task 1}
+\section{Task 1}
 
-    \subsection{}
+\subsection{}
+The two most important rules for a well-formed XML-Document are the following:
 
+\begin{enumerate}
+\item The XML-Document has a single top-level element
+\item Every start tag in the XML-Document has a unique matching end tag, that is in the context of the same parent element
+\end{enumerate}
+The given document is well-formed since it has only a single top-level element \texttt{<tns:Orders>}. Furthermore, every start tag has a matching end tag that is in the context of the same parent element.
+
+\subsection{}
+The following code lines have invalidities:
+\begin{enumerate}
+    \item Line 53: The \texttt{itemID} is the same as in line 48.
+    \item Line 26: A quantity of 10 is not valid, since the schema prohibits the element to have a value of 10 or more.
+    \item Line 44: The \texttt{ZipCode} has a 4-digit value but the schema enforces a 5-digit value.
+    \item Line 41: The schema requires the attribute \texttt{addressID} for the tag \texttt{BillingAdress}, which is not present.
+
+\end{enumerate}
+
+\subsection{}
+No, a valid XML document must be well-formed. The validity requires it to be well-formed.
+
+
+\section{Task 2}
+
+\subsection{}
+
+\subsection{}
+
+\subsection{}
+
+\subsection{}
+
+\section{Task 3}
+
+\subsection{}
+
+\subsection{}
+
+\subsection{}
 
 \end{document}
